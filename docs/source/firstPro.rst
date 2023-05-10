@@ -151,13 +151,14 @@ Python 程序中 出现 ``print``，解释器就知道： 要输出 后面的字
 现在我们先看看一些简单的编写代码的规则
 
 1. Python 是 大小写敏感 的语言。
+   
    比如 print 函数名，该函数定义就是全部小写的， 不能写成 Print 或者 PRINT。
 
 2. Python 代码第一行语句必须顶到最左边，不能有空格。
 
 .. code-block:: python
 
-        print('hello,world')
+    <此处是空格>    print('hello,world')
 
 
 一定要顶到最左边，像这样

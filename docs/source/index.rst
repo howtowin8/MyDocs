@@ -16,27 +16,10 @@
    first.rst
    two.rst
    firstPro.rst
-   2020/index
+   
 
+如果有问题，可以微信联系
 
-
-
-我在尝试使用这个.rst文件的编辑。*应该还是不错的*
-
-def my_function(my_arg, my_other_arg):
-    """A function just for me.
-
-    :param my_arg: The first of my arguments.
-    :param my_other_arg: The second of my arguments.
-
-    :returns: A message (just for me, of course).
-                                                                         """
-    
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. image:: _static/things/wx.jpg
+   :align: center
+   

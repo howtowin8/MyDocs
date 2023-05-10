@@ -6,7 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'xxx'
+import sphinx_rtd_theme
+
+project = '一起探索Python编程'
 copyright = '2023, Mr-Huang'
 author = 'Mr-Huang'
 release = '0.1.0'
@@ -24,5 +26,7 @@ language = 'zh_CN'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
+html_logo = '_static/logo.png'
 html_static_path = ['_static']

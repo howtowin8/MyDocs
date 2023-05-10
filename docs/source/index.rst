@@ -21,5 +21,4 @@
 如果有问题，可以微信联系
 
 .. image:: _static/things/wx.jpg
-   :align: center
    

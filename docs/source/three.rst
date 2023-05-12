@@ -223,3 +223,4 @@ ABC基类
 最后，我们使用 ``Rectangle()`` 函数创建一个名为rect1的新Rectangle对象，并使用整数5和10填充对象的属性。
 
 然后，我们使用 ``print()`` 函数输出rect1对象的属性，并使用 ``rect1.area()和rect1.perimeter()`` 调用对象的方法，以验证它们已成功创建。
+

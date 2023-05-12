@@ -13,7 +13,7 @@
 
 以下是一个使用namedtuple类型的示例：
 
-.. code-block:: console
+.. code-block:: python3
 
     from collections import namedtuple
 
@@ -43,7 +43,7 @@
 
 以下是一个使用enum模块创建枚举类型的示例：
 
-.. code-block:: console
+.. code-block:: python3
 
     from enum import Enum
 

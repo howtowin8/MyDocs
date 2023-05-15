@@ -22,11 +22,6 @@
 
  希望我就是那个家伙！
 
- .. image:: _static/study.png
-   :alt: study now!
-   :align: right
-   :height: 15em
-   :width: 15em
 
 对新手小白的寄语!
 ==================

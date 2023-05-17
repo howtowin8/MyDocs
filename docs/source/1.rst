@@ -1,0 +1,193 @@
+
+==============
+变量和数据类型
+==============
+
+变量是存储数据的容器。Python中的变量不需要声明，你可以直接为其赋值。等号（=）用于赋值。
+
+变量命名规则：
+
+- 变量名只能包含字母、数字和下划线。
+- 变量名以字母或下划线开头，不能以数字开头。
+- 变量名不能是Python关键字。
+
+例如：
+
+.. code-block:: python
+
+   # 定义变量x和y
+   x = 5
+   y = "Hello, World!"
+
+   # 输出变量x和y
+   print(x)
+   print(y)
+
+输出结果：
+
+.. code-block:: python
+
+   5
+   Hello, World!
+
+数据类型
+------
+
+Python中有许多不同的数据类型，包括：
+
+- 数字：整数、浮点数、复数
+- 字符串：一系列字符，用单引号或双引号括起来
+- 列表：一系列按特定顺序排列的元素
+- 元组：一系列按特定顺序排列的元素，但是元素值不能修改
+- 字典：一系列键值对
+- 集合：一系列无序且唯一的元素
+
+数字
+~~~
+
+Python支持三种不同的数字类型：
+
+- 整数（int）
+- 浮点数（float）
+- 复数（complex）
+
+例如：
+
+.. code-block:: python
+
+   # 定义整数、浮点数和复数
+   x = 5
+   y = 3.14
+   z = 1j
+
+   # 输出数据类型和值
+   print(type(x))
+   print(type(y))
+   print(type(z))
+   print(x)
+   print(y)
+   print(z)
+
+输出结果：
+
+.. code-block:: python
+
+   <class 'int'>
+   <class 'float'>
+   <class 'complex'>
+   5
+   3.14
+   1j
+
+字符串
+~~~~~~
+
+字符串是一系列字符，用单引号或双引号括起来。你可以使用索引来访问字符串中的单个字符。
+
+例如：
+
+.. code-block:: python
+
+   # 定义字符串
+   x = "Hello, World!"
+
+   # 输出字符串和第一个字符
+   print(x)
+   print(x[0])
+
+输出结果：
+
+.. code-block:: python
+
+   Hello, World!
+   H
+
+列表
+~~~~
+
+列表是一系列按特定顺序排列的元素。你可以使用索引来访问列表中的单个元素。
+
+例如：
+
+.. code-block:: python
+
+   # 定义列表
+   x = ["apple", "banana", "cherry"]
+
+   # 输出列表和第一个元素
+   print(x)
+   print(x[0])
+
+输出结果：
+
+.. code-block:: python
+
+   ['apple', 'banana', 'cherry']
+   apple
+
+元组
+~~~~
+
+元组是一系列按特定顺序排列的元素，但是元素值不能修改。你可以使用索引来访问元组中的单个元素。
+
+例如：
+
+.. code-block:: python
+
+   # 定义元组
+   x = ("apple", "banana", "cherry")
+
+   # 输出元组和第一个元素
+   print(x)
+   print(x[0])
+
+输出结果：
+
+.. code-block:: python
+
+   ('apple', 'banana', 'cherry')
+   apple
+
+字典
+~~~~
+
+字典是一系列键值对。你可以使用键来访问字典中的值。
+
+例如：
+
+.. code-block:: python
+
+   # 定义字典
+   x = {"name": "John", "age": 36}
+
+   # 输出字典和"name"键的值
+   print(x)
+   print(x["name"])
+
+输出结果：
+
+.. code-block:: python
+
+   {'name': 'John', 'age': 36}
+   John
+
+集合
+~~~~
+
+集合是一系列无序且唯一的元素。你可以使用索引来访问集合中的单个元素。
+
+例如：
+
+.. code-block:: python
+
+   # 定义集合
+   x = {"apple", "banana", "cherry"}
+
+   # 输出集合
+   print(x)
+
+输出结果：
+
+.. code-block:: python
+
+   {'cherry', 'banana', 'apple'}

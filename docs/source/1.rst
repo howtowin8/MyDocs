@@ -13,7 +13,7 @@
 
 例如：
 
-.. code-block:: python
+.. code-block:: python3
 
    # 定义变量x和y
    x = 5
@@ -25,13 +25,13 @@
 
 输出结果：
 
-.. code-block:: python
+.. code-block:: python3
 
    5
    Hello, World!
 
 数据类型
-------
+---------
 
 Python中有许多不同的数据类型，包括：
 
@@ -43,7 +43,7 @@ Python中有许多不同的数据类型，包括：
 - 集合：一系列无序且唯一的元素
 
 数字
-~~~
+~~~~~~~~~
 
 Python支持三种不同的数字类型：
 
@@ -53,7 +53,7 @@ Python支持三种不同的数字类型：
 
 例如：
 
-.. code-block:: python
+.. code-block:: python3
 
    # 定义整数、浮点数和复数
    x = 5
@@ -70,7 +70,7 @@ Python支持三种不同的数字类型：
 
 输出结果：
 
-.. code-block:: python
+.. code-block:: python3
 
    <class 'int'>
    <class 'float'>
@@ -97,7 +97,7 @@ Python支持三种不同的数字类型：
 
 输出结果：
 
-.. code-block:: python
+.. code-block:: python3
 
    Hello, World!
    H
@@ -109,7 +109,7 @@ Python支持三种不同的数字类型：
 
 例如：
 
-.. code-block:: python
+.. code-block:: python3
 
    # 定义列表
    x = ["apple", "banana", "cherry"]
@@ -132,7 +132,7 @@ Python支持三种不同的数字类型：
 
 例如：
 
-.. code-block:: python
+.. code-block:: python3
 
    # 定义元组
    x = ("apple", "banana", "cherry")
@@ -143,7 +143,7 @@ Python支持三种不同的数字类型：
 
 输出结果：
 
-.. code-block:: python
+.. code-block:: python3
 
    ('apple', 'banana', 'cherry')
    apple
@@ -155,7 +155,7 @@ Python支持三种不同的数字类型：
 
 例如：
 
-.. code-block:: python
+.. code-block:: python3
 
    # 定义字典
    x = {"name": "John", "age": 36}
@@ -166,7 +166,7 @@ Python支持三种不同的数字类型：
 
 输出结果：
 
-.. code-block:: python
+.. code-block:: python3
 
    {'name': 'John', 'age': 36}
    John
@@ -178,7 +178,7 @@ Python支持三种不同的数字类型：
 
 例如：
 
-.. code-block:: python
+.. code-block:: python3
 
    # 定义集合
    x = {"apple", "banana", "cherry"}
@@ -188,6 +188,6 @@ Python支持三种不同的数字类型：
 
 输出结果：
 
-.. code-block:: python
+.. code-block:: python3
 
    {'cherry', 'banana', 'apple'}

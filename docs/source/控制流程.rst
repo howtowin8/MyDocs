@@ -1,0 +1,86 @@
+=============
+流程控制
+=============
+
+控制流程是编程中的重要概念，它用于控制程序的执行流程。Python中有三种基本的控制流程语句：条件语句、循环语句和函数。
+
+条件语句
+~~~~~~~~
+
+条件语句用于根据某个条件来执行不同的代码块。在Python中，使用if、elif和else关键字来实现条件语句。
+
+例如：
+
+.. code-block:: python3
+
+   x = 5
+
+   if x > 0:
+       print("x is positive")
+   elif x == 0:
+       print("x is zero")
+   else:
+       print("x is negative")
+
+在上面的例子中，如果x大于0，则打印“x is positive”，否则如果x等于0，则打印“x is zero”，否则打印“x is negative”。
+
+循环语句
+~~~~~~~~
+
+循环语句用于重复执行某个代码块。在Python中，使用while和for关键字来实现循环语句。
+
+while循环
+~~~~~~~~~
+
+while循环用于在条件为真的情况下重复执行某个代码块。
+
+例如：
+
+.. code-block:: python3
+
+   i = 0
+
+   while i < 5:
+       print(i)
+       i += 1
+
+在上面的例子中，i从0开始，每次循环都打印i的值，并将i加1，直到i的值大于等于5为止。
+
+for循环
+~~~~~~~
+
+for循环用于迭代一个序列（例如列表、元组、字符串等）中的元素。
+
+例如：
+
+.. code-block:: python3
+
+   fruits = ["apple", "banana", "cherry"]
+
+   for fruit in fruits:
+       print(fruit)
+
+在上面的例子中，迭代fruits列表中的元素，并将每个元素赋值给fruit变量，然后打印fruit变量的值。
+
+函数
+~~~~
+
+函数是一段可重复使用的代码块，用于完成特定的任务。在Python中，使用def关键字来定义函数。
+
+例如：
+
+.. code-block:: python3
+
+   def square(x):
+       return x ** 2
+
+   print(square(5))
+
+在上面的例子中，定义了一个名为square的函数，它接受一个参数x，并返回x的平方。然后调用square函数，并将5作为参数传递给它，最后打印函数的返回值。
+
+.. tip::
+    
+    注意事项：
+    - 在Python中，代码块的缩进非常重要，它用于标识代码块的开始和结束。通常使用四个空格作为缩进。
+    - 在Python中，可以使用break和continue关键字来控制循环的执行流程。break用于跳出循环，而continue用于跳过当前循环。
+    - 在Python中，可以使用pass关键字来表示一个空的代码块。这在编写代码时非常有用，因为它允许你先定义一个函数或类，然后再填充它的具体实现。
